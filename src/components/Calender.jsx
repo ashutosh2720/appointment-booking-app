@@ -38,7 +38,7 @@ const CustomCalendar = () => {
 
   const handleDateChange = (date) => {
     setSelectedDate(date);
-    setSelectedSlot(null); // Reset selected slot when changing the date
+    setSelectedSlot(null);
   };
 
   const tileContent = ({ date, view }) => {
@@ -66,10 +66,7 @@ const CustomCalendar = () => {
     console.log("Slot Selected:", slot);
   };
 
-
-  const handleBooking = ()=>{
-
-  }
+  const handleBooking = () => {};
 
   return (
     <div className="custom-calendar-container" style={{ zIndex: 2 }}>
@@ -159,9 +156,7 @@ const CustomCalendar = () => {
         </div>
       )}
 
-      {isConfermed && (
-        <Conferm selectedSlot={selectedSlot}/>
-      )}
+      {isConfermed && <Conferm selectedSlot={selectedSlot} />}
     </div>
   );
 };

@@ -28,7 +28,6 @@
   justify-content: center;
   align-items: center;
   border-top-left-radius: 2%;
-  /* border-top-right-radius: 2%; */
 }
 
 .custom-calendar-container .custom-calendar .custom-timeslots {
@@ -43,7 +42,6 @@
 
 .custom-timeslots {
   border-top-right-radius: 2%;
-  border-bottom-right-radius: 2%;
   width: 100%;
   overflow-y: auto;
   height: 100%;
@@ -58,8 +56,7 @@
 .timeslot {
   color: rgba(55, 135, 96, 1);
   display: flex;
-  justify-content: space-between
-  ;
+  justify-content: space-between;
   align-items: center;
   background-color: white;
   border: 1px solid rgba(55, 135, 96, 1);
@@ -121,38 +118,32 @@
 }
 
 .custom-timeslots::-webkit-scrollbar {
-  width: 8px; /* Set the width of the WebKit scrollbar */
+  width: 8px;
 }
 
 .custom-timeslots::-webkit-scrollbar-thumb {
-  background-color: rgba(
-    55,
-    135,
-    96,
-    1
-  ); /* Set the color of the WebKit scrollbar thumb */
-  border-radius: 4px; /* Add rounded corners to the WebKit scrollbar thumb */
+  background-color: rgba(55, 135, 96, 1);
+  border-radius: 4px;
 }
 
 .custom-timeslots::-webkit-scrollbar-track {
-  background-color: #f1f1f1; /* Set the color of the WebKit scrollbar track */
+  background-color: #f1f1f1;
 }
 
 .custom-timeslots::-webkit-scrollbar-thumb:hover {
-  background-color: #3a8960; /* Change the WebKit scrollbar thumb color on hover */
+  background-color: #3a8960;
 }
 
-/* Add custom styles for react-calendar */
 .react-calendar {
   width: 100%;
-  max-width: 300px; /* Set the maximum width of the calendar */
-  border: 1px solid #ccc; /* Add border to the calendar */
-  border-radius: 8px; /* Add rounded corners to the calendar */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .react-calendar__tile {
-  padding: 10px; /* Adjust the padding of each calendar day */
+  padding: 10px;
 }
 
 .react-calendar__month-view__weekdays abbr {
@@ -162,13 +153,8 @@
 }
 
 .react-calendar__tile--active {
-  background-color: rgba(
-    55,
-    135,
-    96,
-    1
-  ); /* Set your desired background color */
-  color: #fff; /* Set your desired text color */
+  background-color: rgba(55, 135, 96, 1);
+  color: #fff;
   border-radius: 100%;
 }
 
@@ -177,14 +163,11 @@
   background: rgba(55, 135, 96, 1);
 }
 
-
-
-.conferm{
+.conferm {
   position: fixed;
   inset: 0;
   background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
