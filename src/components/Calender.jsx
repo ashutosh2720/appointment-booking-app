@@ -66,14 +66,21 @@ const CustomCalendar = () => {
     console.log("Slot Selected:", slot);
   };
 
-  const handleBooking = () => {};
+const design  = (<svg width="286" height="225" viewBox="0 0 286 225" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M120 160.517L540 108V172L120 224.517V160.517Z" fill="#EDF9F1"/>
+<path d="M0 125.808L612 49V113L0 189.808V125.808Z" fill="#CCE7E0"/>
+<path d="M83 52.517L503 0V64L83 116.517V52.517Z" fill="#378760"/>
+</svg>
+)
 
   return (
     <div className="custom-calendar-container" style={{ zIndex: 2 }}>
       <div
         className="bg"
         style={{ position: "fixed", right: "0", bottom: "80px", zIndex: "-1" }}
-      ></div>
+      >
+        {design}
+      </div>
 
       <div
         className="bg"
@@ -84,7 +91,10 @@ const CustomCalendar = () => {
           zIndex: "-1",
           opacity: "100px",
         }}
-      ></div>
+      >
+
+        {design}
+      </div>
       {loading && (
         <img
           src="https://cdn.dribbble.com/users/1415337/screenshots/10781083/media/0466184625e53796cfeb7d5c5918dec8.gif"
