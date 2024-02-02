@@ -1,0 +1,25 @@
+.nav-main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.nav-main .nav-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.share-link{
+    color:green;
+    border: 1px solid green;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    border-radius:100px;
+}

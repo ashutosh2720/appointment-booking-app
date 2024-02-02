@@ -1,0 +1,27 @@
+/* CustomSelect.css */
+
+.custom-select-container {
+    display: inline-block;
+    width: 70%;
+    border: 1px solid green;
+    border-radius: 2%;
+  }
+
+
+  
+  .custom-select {
+    width: 100%;
+    background-color:white; /* Green background color */
+    color: green; /* White text color */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .custom-select option {
+  
+    background-color: white; /* Green background color for options */
+    color: green; /* White text color for options */
+  }
+  
