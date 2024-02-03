@@ -8,13 +8,6 @@ The Appointment Booking App allows users to schedule appointments by selecting a
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Usage](#usage)
-- [React Best Practices](#react-best-practices)
-- [Bonus Features](#bonus-features)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
-
 ## Introduction
 
 The Appointment Booking App streamlines the process of scheduling appointments. Users can view available timeslots, select a date, and choose a timeslot for their appointment.
