@@ -1,29 +1,24 @@
-import React, { useState } from 'react';
-import '../styles/CustomSelect.css'; // Import your custom CSS for styling
+import React, { useState } from "react";
+import "../styles/CustomSelect.css";
 
-const CustomSelect = () => {
-  const [selectedOption, setSelectedOption] = useState('');
+const CustomSelect = ({ selectedDuration, setSelectedDuration }) => {
   const options = [
-    { value: '30 min', label: '30 min' },
-    { value: '60 min', label: '60 min' },
+    { value: "60", label: "60 min" },
+    { value: "30", label: "30 min" },
   ];
 
   const handleSelectChange = (event) => {
     const selectedValue = event.target.value;
-    setSelectedOption(selectedValue);
-    onSelect(selectedValue);
+    setSelectedDuration(selectedValue);
   };
 
   return (
     <div className="custom-select-container">
       <select
         className="custom-select"
-        value={selectedOption}
+        value={selectedDuration}
         onChange={handleSelectChange}
       >
-        <option value="" disabled>
-          Select an option
-        </option>
         {options.map((option) => (
           <option key={option.value} value={option.value}>
             {option.label}
