@@ -32,6 +32,11 @@ The Appointment Booking App streamlines the process of scheduling appointments. 
 - Axios
 - Moment.js
 
+
+## Screens 
+![image](https://github.com/ashutosh2720/appointment-booking-app/assets/109720375/2717465d-47ff-453d-a13c-7a717d5b98e9)
+
+
 ## Getting Started
 
 ### Prerequisites
